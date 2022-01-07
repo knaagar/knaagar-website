@@ -192,6 +192,14 @@ li {
 	transition: background-size .4s ease;
 }
 
+.color-it-without-hover-2 {
+  background-image: linear-gradient(to bottom, transparent 65%, var(--lgreen) 0);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	text-decoration: none;
+	transition: background-size .4s ease;
+}
+
 .landing p {
   font-family: Poppins;
   font-style: normal;
