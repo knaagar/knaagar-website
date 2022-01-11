@@ -34,3 +34,5 @@ function scrollBtn() {
 
 // alert(window.innerWidth);
 // https://replit.com/talk/learn/NodeJs-Express-tutorial/23519
+
+AOS.init();

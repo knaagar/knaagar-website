@@ -6,38 +6,33 @@
 	<meta name="viewport" content="width=device-width">
 	<link rel="icon" type="image/jpg" href="/images/rocket.jpg" />
 	<title>K-Naagar</title>
-	<link href="/styles/style.css" rel="stylesheet" type="text/css" />
-	<script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js">
-
+	<link href="/styles/style.css" rel="stylesheet" type="text/css" /> 
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 	</script>
 </head>
 
 <body>
-  <button onclick="scrollBtn()" id="scroll-btn" title="Go to top">Top</button>
+  
 	<header class="header">
 		<nav class="navbar">
 			<div class="link-wrapper">
-				<a href="http://localhost:3000/" class="nav-logo">Home</a>
+				<a href="/" class="nav-logo">Home</a>
 			</div>
 			<ul class="nav-menu">
 				<li class="nav-item">
 					<div class="link-wrapper">
-						<a href="http://localhost:3000/blog" class="nav-link">Blog</a>
+						<a href="/blog" class="nav-link">Blog</a>
 					</div>
 				</li>
 				<li class="nav-item">
 					<div class="link-wrapper">
-						<a href="http://localhost:3000/projects" class="nav-link">Projects</a>
+						<a href="/projects" class="nav-link">Projects</a>
 					</div>
 				</li>
 				<li class="nav-item">
 					<div class="link-wrapper">
-						<a href="http://localhost:3000/milestones" class="nav-link">Milestones</a>
-					</div>
-				</li>
-				<li class="nav-item">
-					<div class="link-wrapper">
-						<a href="http://localhost:3000/contact" class="nav-link">Contact</a>
+						<a href="/contact" class="nav-link">Contact</a>
 					</div>
 				</li>
 			</ul>
@@ -57,28 +52,34 @@
     </div>
   </div>
   
-  <div class="flex-container color-container one">
+  <br><br><br>
+  <div class="flex-container color-container one"
+  data-aos="fade-up"
+  data-aos-duration="3000">
     
     <section class="col-1">
       <br>
-      <img src="/images/index1.jpeg" alt='index1'>
+      <img src="/images/science.jpg" alt='index1'>
       
       <br>
     </section>
     <section class="col-2">
       <h1>About <span class="color-it-without-hover">Me</span></h1>
       <br>
-      <p>Hi, I am Kritika Naagar (AKA Leaf). I am a futurist, a programmer, a student, a developer, a space enthusiast and in general a techie. I am currently in high school and love doing things beyond academics. I was introduced to programming by <a href="https://www.khanacademy.org/profile/kaid_481697903688181525808339" class="color-it" target="_blank">Khan Academy</a> that I previously used for Math and Science. I started my journey with p5.js (Processing JS) and then learned HTML, CSS and SQL. Later I jumped to <a href="https://www.freecodecamp.org/" class="color-it" target="_blank">freeCodeCamp</a>, <a href="https://www.codecademy.com/profiles/leafkn" class="color-it" target="_blank">Codecademy</a>, <a href="https://w3schools.com/" class="color-it" target="_blank">w3schools</a>, <a href="https://scrimba.com/" class="color-it" target="_blank">Scrimba</a> and <a href="https://www.youtube.com/" class="color-it" target="_blank">Youtube</a> where I learned ES6 Javascript, jQuery, SASS, Vue.js, Python, Node.js and so much more. I am still learning various technologies, participating in hackathons and competitions and international/national level tests.</p>
+      <p>Hi, I am Kritika Naagar (AKA Leaf). I am a futurist, a programmer, a student, a developer, a space enthusiast and in general a techie. I am currently in high school and love doing things beyond academics. I was introduced to programming by <a href="https://www.khanacademy.org/profile/kaid_481697903688181525808339" class="color-it" target="_blank">Khan Academy</a> that I previously used for Math and Science. I started my journey with p5.js (Processing JS) and then learned HTML, CSS and SQL. Later I jumped to <a href="https://www.freecodecamp.org/" class="color-it" target="_blank">freeCodeCamp</a>, <a href="https://www.codecademy.com/profiles/leafkn" class="color-it" target="_blank">Codecademy</a>, <a href="https://w3schools.com/" class="color-it" target="_blank">w3schools</a>, <a href="https://scrimba.com/" class="color-it" target="_blank">Scrimba</a> and <a href="https://www.youtube.com/" class="color-it" target="_blank">Youtube</a> where I learned ES6 Javascript, jQuery, SASS, Vue.js, Python, Node.js and so much more. I am still learning various technologies, participating in hackathons and competitions and international/national level tests.</p><br>
+
     </section>
   </div>
   <br><br><br>
-  <div class="flex-container color-container two">
+  <div class="flex-container color-container one"
+  data-aos="fade-up"
+  data-aos-duration="3000">
     
     
     <section class="col-2">
       <h1><span class="color-it-without-hover">Programming </span>Projects</h1>
       <br>
-      <p>“Programming isn’t about what you know; it’s about what you can figure out.” – Chris Pine.<br>Programming is a very beautiful world and in this website I am going to showcase the <a class="color-it" href="/projects">projects</a> I have made in this field. </p>
+      <p>“Programming isn't about what you know; it's about what you can figure out.” - Chris Pine.<br><a class="color-it" href="/projects">Here</a> is a showcase of the projects I have made in this field.</p>
     </section>
     <section class="col-1">
       <br>
@@ -88,11 +89,13 @@
     </section>
   </div>
   <br><br><br>
-  <div class="flex-container color-container one">
+  <div class="flex-container color-container two"
+  data-aos="fade-up"
+  data-aos-duration="3000">
     
     <section class="col-1">
       <br>
-      <img src="/images/astro.jpg" alt='index1'>
+      <img src="/images/blog.jpg" alt='index1'>
       
       <br>
     </section>
@@ -104,25 +107,25 @@
     
   </div>
   <br><br><br>
-  <div class="flex-container color-container two">
+  <div class="flex-container color-container one"
+  data-aos="fade-up"
+  data-aos-duration="3000">
     
     
     <section class="col-2">
       <h1><span class="color-it-without-hover">Contact</span> me</h1>
       <br>
       <p>Need a website? I am still in high school so I won't be monetizing sites. You can contact me via different ways listed <a class="color-it" href="/contact">here</a>.<br>
-      Want to collaborate? Hmm.. I would like to collaborate in hackathons and in making projects that our worth making.<br>
-      <a class="color-it" href="/subscribe">Subscribe</a> for weekly newsletter.</p>
+      </p>
     </section>
     <section class="col-1">
       <br>
-      <img src="/images/leader.jpg" alt='index1'>
+      <img src="/images/school.jpg" alt='index1'>
       
       <br>
     </section>
   </div>
   <br><br><br>
     <script src="/scripts/script.js"></script>
-    <script src="/scripts/vue.js"></script>
   </body>
 </html>

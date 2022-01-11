@@ -30,16 +30,8 @@ app.get('/contact', (req, res) => {
   res.sendFile(process.cwd() + '/public/views/contact.html'); 
 });
 
-app.get('/milestones', (req, res) => { 
-  res.sendFile(process.cwd() + '/public/views/milestones.html'); 
-});
-
 app.get('/projects', (req, res) => { 
   res.sendFile(process.cwd() + '/public/views/project.html'); 
-});
-
-app.get('/subscribe', (req, res) => { 
-  res.sendFile(process.cwd() + '/public/views/sub.html'); 
 });
 
 app.get('/*', (req, res) => {
