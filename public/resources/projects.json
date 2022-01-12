@@ -1,0 +1,44 @@
+[
+    {
+        "name": "Live Well n Breathe",
+        "thumb": "/images/lwab.png",
+        "link": "https://live-well-and-breathe.stranothus-studios.repl.co/",
+        "desc": "",
+        "repo": "https://github.com/knaagar/Live-Well-and-Breathe"
+    },
+    {
+        "name": "Custom SASS transpiler",
+        "thumb": "/images/sass.png",
+        "link": "https://github.com/stranothus/KASASS",
+        "desc": "",
+        "repo": "https://github.com/stranothus/KASASS"
+    },
+    {
+        "name": "Spend Elon Musk's Money",
+        "thumb": "/images/elon.png",
+        "link": "https://spend.leafkn.repl.co/",
+        "desc": "",
+        "repo": "404"
+    },
+    {
+        "name": "Carbon Print",
+        "thumb": "/images/carbon.png",
+        "link": "https://knaagar.github.io/carbonprint/",
+        "desc": "",
+        "repo": "https://github.com/knaagar/carbonprint"
+    },
+    {
+        "name": "Facticity",
+        "thumb": "/images/facticity.png",
+        "link": "https://facticity.repl.co/",
+        "desc": "",
+        "repo": "https://github.com/knaagar/definitions-bookmarklet"
+    },
+    {
+        "name": "Knaagar - Portfolio",
+        "thumb": "/images/knaagar.png",
+        "link": "",
+        "desc": "",
+        "repo": ""
+    }
+]

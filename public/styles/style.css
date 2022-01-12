@@ -442,3 +442,31 @@ form button {
   cursor: pointer;
   border-radius: 2px;
 }
+
+#projects {
+  display: grid;
+  grid-template-areas: '. .';
+}
+
+.cards {
+  width: 40vw;
+  height: auto;
+  padding: 40px;
+}
+
+@media only screen and (max-width: 920px) {
+  #projects {
+    display: grid;
+    grid-template-areas: '.';
+  }
+  .cards {
+    width: 60vw;
+    padding: 30px;
+  }
+}
+@media only screen and (max-width: 601px) {
+  .cards {
+    width: 70vw;
+    padding: 10px;
+  }
+}
