@@ -448,15 +448,26 @@ form button {
   grid-template-areas: '. .';
 }
 
-.cards {
+.cards:not(#special) {
   width: 40vw;
   height: 40em;
   margin: 40px;
   padding: 20px;
-  border: 2px solid #fff;
+  border: 2px solid rgba(155, 152, 155, 0.85);
   border-radius: 2px;
   overflow-y: auto;
+  background-color: rgba(255, 255, 255, 0.05);
   overflow-x: hidden;
+}
+
+#special {
+  width: 40vw;
+  height: auto;
+  margin: 40px;
+  padding: 20px;
+  border: 2px solid rgba(155, 152, 155, 0.85);
+  border-radius: 2px;
+  background-color: rgba(255, 255, 255, 0.05);
 }
 
 @media only screen and (max-width: 920px) {
@@ -486,4 +497,8 @@ form button {
 
 .cards h2, .cards p {
   padding: 10px;
+}
+#special i {
+  margin-right: 7.5px;
+  color: #6C8C74;
 }
