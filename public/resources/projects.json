@@ -3,42 +3,42 @@
         "name": "Live Well n Breathe",
         "thumb": "/images/lwab.png",
         "link": "https://live-well-and-breathe.stranothus-studios.repl.co/",
-        "desc": "",
+        "desc": "I got to work on this website with two friends from a while - Quinn Gibson and Totoro for my first hackathon \"Futurist Fest 2021\". We used HTML5, CSS3, Javascript, jQuery, Vue.js for frontend and Node.js, Express.js, MongoDB for the backend. It is a self-health website to complete your self-health goals.",
         "repo": "https://github.com/knaagar/Live-Well-and-Breathe"
     },
     {
         "name": "Custom SASS transpiler",
         "thumb": "/images/sass.png",
-        "link": "https://github.com/stranothus/KASASS",
-        "desc": "",
+        "link": "https://www.khanacademy.org/computer-programming/ka-sass-ft-quinn-hardbrook/5549764049420288",
+        "desc": "This a custom SASS (short for syntactically awesome style sheets) transpiler I made with Quinn Gibson using Javascript RegEx and Array functions. This was made for Khan Academy's coding environment so that you can code basic SASS even in static CSS files. It was a lot fun to make this.",
         "repo": "https://github.com/stranothus/KASASS"
     },
     {
         "name": "Spend Elon Musk's Money",
         "thumb": "/images/elon.png",
-        "link": "https://spend.leafkn.repl.co/",
-        "desc": "",
-        "repo": "404"
+        "link": "https://www.khanacademy.org/computer-programming/spend-elon-musks-money/6520442229669888",
+        "desc": "This is a web game inspired by <a class=\"color-it\" href=\"https://neal.fun/spend/\">Neal's Bill Gates' version</a>.<br>I, along with JSCoder, decided to make Elon Musk's version. It was pretty fun to code it and more fun to play! Enjoy spending (not in real) the money of world's richest person.",
+        "repo": "none"
     },
     {
         "name": "Carbon Print",
         "thumb": "/images/carbon.png",
         "link": "https://knaagar.github.io/carbonprint/",
-        "desc": "",
+        "desc": "This is a very low carbon emitting website made for submission to Codevitate hackathon. Only 0.02g of CO2 is produced every time someone visits this web page. 3. This web page emits the amount of carbon that less than 1 tree absorbs in a year. Plus this website also has a Carbon Footprint calculator.",
         "repo": "https://github.com/knaagar/carbonprint"
     },
     {
         "name": "Facticity",
         "thumb": "/images/facticity.png",
         "link": "https://facticity.repl.co/",
-        "desc": "",
+        "desc": "Facticity is a definitions-bookmarklet that gives you definitions of the word just after you select that word. This was the submission for Stem Warrior Hacks Winter hackathon. This also consists of a word database page (built with a free dictionary API) that gives you detailed information about the particular word.",
         "repo": "https://github.com/knaagar/definitions-bookmarklet"
     },
     {
         "name": "Knaagar - Portfolio",
         "thumb": "/images/knaagar.png",
         "link": "",
-        "desc": "",
+        "desc": "This is my portfolio (the site you are currently on). I used HTML5, CSS3, Javascript, jQuery and other small things for the frontend and Node.js, Express.js, Nodemailer and other small things for the backend.",
         "repo": ""
     }
 ]

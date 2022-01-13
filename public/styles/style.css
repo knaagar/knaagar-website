@@ -450,8 +450,13 @@ form button {
 
 .cards {
   width: 40vw;
-  height: auto;
-  padding: 40px;
+  height: 40em;
+  margin: 40px;
+  padding: 20px;
+  border: 2px solid #fff;
+  border-radius: 2px;
+  overflow-y: auto;
+  overflow-x: hidden;
 }
 
 @media only screen and (max-width: 920px) {
@@ -469,4 +474,16 @@ form button {
     width: 70vw;
     padding: 10px;
   }
+}
+
+.cards .text, .cards .img {
+  padding: 10px;
+}
+
+.cards .img img {
+  border: 1px solid rgba(155, 152, 155, 0.85)
+}
+
+.cards h2, .cards p {
+  padding: 10px;
 }

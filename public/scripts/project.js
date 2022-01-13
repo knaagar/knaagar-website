@@ -10,8 +10,8 @@ $.getJSON('/resources/projects.json', function(data) {
                 <img src="${data[i].thumb}">
             </div>
             <div class="text">
-                <h2>${data[i].name}</h2>
-                <p>${data[i].desc}Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <h2><a class="color-it" style="text-decoration:none;color:inherit;" href="${data[i].link}" target="_blank">${data[i].name}</a>&nbsp;&nbsp;&nbsp;<a class="color-it" style="color: #fff; font-size:1.1em;" target="_blank" href="${data[i].repo}"><i class="fa fa-github"></i></a></h2>
+                <p>${data[i].desc}</p>
             </div>
         </div>
         <br><br><br>
@@ -20,4 +20,3 @@ $.getJSON('/resources/projects.json', function(data) {
     }
 });
 
-// alert(window.innerWidth)
