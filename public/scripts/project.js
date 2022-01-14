@@ -6,7 +6,7 @@ $.getJSON('/resources/projects.json', function(data) {
         let ael = document.createElement('div');
         let x = 'https://github.com/knaagar';
         ael.innerHTML = `
-        <div class="cards" data-aos="fade-up">
+        <div class="cards">
             <div class="img">    
                 <img src="${data[i].thumb}">
             </div>
