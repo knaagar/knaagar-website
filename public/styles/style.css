@@ -175,15 +175,17 @@ li {
         border-radius: 10px;
         text-align: center;
         transition: 0.3s;
-        
+        z-index: 99;
     }
 
     .nav-menu.active {
         left: 0;
+        z-index: 99;
     }
 
     .nav-item {
         margin: 2.5rem 0;
+        z-index: 100;
     }
 
     .hamburger {
