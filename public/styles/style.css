@@ -192,20 +192,25 @@ li {
         display: block;
         cursor: pointer;
         margin-right: 2em;
+        z-index: 100;
     }
 
     .hamburger.active .bar:nth-child(2) {
         opacity: 0;
+        z-index: 100;
     }
 
     .hamburger.active .bar:nth-child(1) {
         -webkit-transform: translateY(8px) rotate(45deg);
         transform: translateY(8px) rotate(45deg);
+        z-index: 100;
     }
 
     .hamburger.active .bar:nth-child(3) {
         -webkit-transform: translateY(-8px) rotate(-45deg);
         transform: translateY(-8px) rotate(-45deg);
+        z-index: 100;
+        
     }
     
 }
