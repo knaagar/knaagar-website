@@ -17,7 +17,8 @@ $.getJSON('/resources/projects.json', function(data) {
         </div>
         <br><br><br>
         `;
-        el.appendChild(ael);
+
+        data[i].worth ? el.appendChild(ael) : console.log('h')
     }
 });
 
