@@ -24,6 +24,10 @@ app.get('/', (req, res) => {
   res.sendFile(process.cwd() + '/public/views/index.html'); 
 });
 
+app.get('/skills', (req, res) => { 
+  res.sendFile(process.cwd() + '/public/views/skills.html'); 
+});
+
 app.get('/blog', (req, res) => { 
   res.sendFile(process.cwd() + '/public/views/blog.html'); 
 });

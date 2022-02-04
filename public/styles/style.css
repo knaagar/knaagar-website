@@ -40,7 +40,7 @@ body {
   overflow-x: hidden;
 }
 
-body:after {
+body::after {
   position: fixed;
   top: -150px;
   right: -50px;
@@ -55,8 +55,8 @@ body:after {
 
 body::before {
   position: fixed;
-  top: -150px;
-  right: -50px;
+  top: 100px;
+  left: -50px;
   bottom: 0;
   content: '';
   width: 400px;
@@ -508,4 +508,20 @@ form button {
 #special i {
   margin-right: 7.5px;
   color: #6C8C74;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-areas: '. .';
+}
+
+.grid-container .skill-card {
+  padding: 50px;
+}
+
+.skill-card .text h2 {
+  text-align: center;
+  font-size: 1.7em;
+  padding: 8px;
+  color: var(--dbiege);
 }

@@ -1,0 +1,80 @@
+[
+    {
+        "img": "",
+        "title": "p5.js",
+        "fairlyProficient": true,
+        "desc": "This is a javascript framework for creating interactive visuals and games!"
+    },
+    {
+        "img": "",
+        "title": "HTML5",
+        "fairlyProficient": true,
+        "desc": "This is the backbone of all the websites you see. This creates the structure of a website."
+    },
+    {
+        "img": "",
+        "title": "CSS3",
+        "fairlyProficient": true,
+        "desc": "Humans wanted to make websites look attractive - they made CSS. This helps in making websites look beautiful."
+    },
+    {
+        "img": "",
+        "title": "Javascript",
+        "fairlyProficient": true,
+        "desc": "This makes websites interactive. To put it simply, it is the brain of a website."
+    },
+    {
+        "img": "",
+        "title": "jQuery",
+        "fairlyProficient": true,
+        "desc": "jQuery is a javascript framework that makes writing javascript code way too easy and sweet to look at."
+    },
+    {
+        "img": "",
+        "title": "SASS",
+        "fairlyProficient": true,
+        "desc": "SASS is a CSS framework and includes a lot of beautiful features that makes writing CSS sweet."
+    },
+    {
+        "img": "",
+        "title": "Vue.js",
+        "fairlyProficient": true,
+        "desc": "This is a front-end javascript framework that makes creating a bit heavy front-end websites easy."
+    },
+    {
+        "img": "",
+        "title": "Node.js",
+        "fairlyProficient": true,
+        "desc": "Javascript in the backend! Yes, Node is a runtime environment to use JS in backend."
+    },
+    {
+        "img": "",
+        "title": "Express.js",
+        "fairlyProficient": true,
+        "desc": "This is a Node.js framework and easy to write server-side code."
+    },
+    {
+        "img": "",
+        "title": "MongoDB",
+        "fairlyProficient": true,
+        "desc": "This is a NoSQL Database and very easy to use if you already know about Javascript Objects."
+    },
+    {
+        "img": "",
+        "title": "Git",
+        "fairlyProficient": true,
+        "desc": "Git is a version-control system and it is very helpful to deploy websites, collaborate and track your code."
+    },
+    {
+        "img": "",
+        "title": "Font Awesome",
+        "fairlyProficient": true,
+        "desc": "Icons that make the site look so pretty!"
+    },
+    {
+        "img": "",
+        "title": "Bash",
+        "fairlyProficient": true,
+        "desc": "Bash runs operations in your device and hosts websites online."
+    }
+]
