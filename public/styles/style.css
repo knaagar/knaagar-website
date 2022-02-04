@@ -515,6 +515,12 @@ form button {
   grid-template-areas: '. .';
 }
 
+@media screen and (max-width: 700px) {
+	.grid-container {
+		grid-template-areas: '.';
+	}
+}
+
 .grid-container .skill-card {
   padding: 50px;
 }
