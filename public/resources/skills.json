@@ -1,78 +1,78 @@
 [
     {
-        "img": "",
+        "img": "/images/p5.png",
         "title": "p5.js",
         "fairlyProficient": true,
         "desc": "This is a javascript framework for creating interactive visuals and games!"
     },
     {
-        "img": "",
+        "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/130px-HTML5_logo_and_wordmark.svg.png",
         "title": "HTML5",
         "fairlyProficient": true,
         "desc": "This is the backbone of all the websites you see. This creates the structure of a website."
     },
     {
-        "img": "",
+        "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1452px-CSS3_logo_and_wordmark.svg.png",
         "title": "CSS3",
         "fairlyProficient": true,
         "desc": "Humans wanted to make websites look attractive - they made CSS. This helps in making websites look beautiful."
     },
     {
-        "img": "",
+        "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/2048px-Unofficial_JavaScript_logo_2.svg.png",
         "title": "Javascript",
         "fairlyProficient": true,
         "desc": "This makes websites interactive. To put it simply, it is the brain of a website."
     },
     {
-        "img": "",
+        "img": "https://openjsf.org/wp-content/uploads/sites/84/2019/10/jquery-logo-vertical_large_square.png",
         "title": "jQuery",
         "fairlyProficient": true,
         "desc": "jQuery is a javascript framework that makes writing javascript code way too easy and sweet to look at."
     },
     {
-        "img": "",
+        "img": "https://sass-lang.com/assets/img/styleguide/seal-color-aef0354c.png",
         "title": "SASS",
         "fairlyProficient": true,
         "desc": "SASS is a CSS framework and includes a lot of beautiful features that makes writing CSS sweet."
     },
     {
-        "img": "",
+        "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Vue.js_Logo_2.svg/2367px-Vue.js_Logo_2.svg.png",
         "title": "Vue.js",
         "fairlyProficient": true,
         "desc": "This is a front-end javascript framework that makes creating a bit heavy front-end websites easy."
     },
     {
-        "img": "",
+        "img": "https://replit.com/public/images/languages/nodejs.svg",
         "title": "Node.js",
         "fairlyProficient": true,
         "desc": "Javascript in the backend! Yes, Node is a runtime environment to use JS in backend."
     },
     {
-        "img": "",
+        "img": "https://upload.wikimedia.org/wikipedia/commons/6/64/Expressjs.png",
         "title": "Express.js",
         "fairlyProficient": true,
         "desc": "This is a Node.js framework and easy to write server-side code."
     },
     {
-        "img": "",
+        "img": "https://cdn.icon-icons.com/icons2/2415/PNG/512/mongodb_original_logo_icon_146424.png",
         "title": "MongoDB",
         "fairlyProficient": true,
         "desc": "This is a NoSQL Database and very easy to use if you already know about Javascript Objects."
     },
     {
-        "img": "",
+        "img": "https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png",
         "title": "Git",
         "fairlyProficient": true,
         "desc": "Git is a version-control system and it is very helpful to deploy websites, collaborate and track your code."
     },
     {
-        "img": "",
+        "img": "https://www.drupal.org/files/project-images/font_awesome_logo.png",
         "title": "Font Awesome",
         "fairlyProficient": true,
         "desc": "Icons that make the site look so pretty!"
     },
     {
-        "img": "",
+        "img": "https://banner2.cleanpng.com/20180705/txh/kisspng-bash-shell-script-command-line-interface-z-shell-5b3df571eaf1a4.5375084915307871859623.jpg",
         "title": "Bash",
         "fairlyProficient": true,
         "desc": "Bash runs operations in your device and hosts websites online."

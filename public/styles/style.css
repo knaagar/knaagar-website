@@ -531,3 +531,15 @@ form button {
   padding: 8px;
   color: var(--dbiege);
 }
+
+.skill-card .img {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+
+.skill-card .img img {
+  height: 100px;
+  width: auto;
+  padding: 20px;
+}
