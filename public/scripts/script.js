@@ -15,24 +15,4 @@ function closeMenu() {
     navMenu.classList.remove("active");
 }
 
-var scrollable = document.getElementById("scroll-btn");
-
-window.onscroll = function() {scrollFunction()};
-
-function scrollFunction() {
-  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-    scrollable.style.display = "block";
-  } else {
-    scrollable.style.display = "none";
-  }
-}
-
-function scrollBtn() {
-  document.body.scrollTop = 0;
-  document.documentElement.scrollTop = 0;
-}
-
-// alert(window.innerWidth);
-// https://replit.com/talk/learn/NodeJs-Express-tutorial/23519
-
 AOS.init();

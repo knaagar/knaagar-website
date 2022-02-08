@@ -250,7 +250,7 @@ p {
   font-family: Poppins;
   font-style: normal;
   font-weight: 600;
-  font-size: 20px;
+  font-size: 18px;
   text-align: left;
   color: #fff;
   padding: 5px;
@@ -372,21 +372,22 @@ p {
   width: 100%;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
-  grid-gap: 20px;
+  grid-gap: 15px;
   max-width: 800px;
   justify-items: center;
-  margin: 20px 0;
-  padding: 20px;
+  margin: 15px 0;
+  padding: 15px;
 }
 #places-grid > img, #places-grid > a > img{
   width: 100px;
   height: 100px;
-  margin: 20px;
+  margin: 15px;
 }
 #places-grid {
   background-color: var(--lgreen);
   border-radius: 81% 19% 84% 16% / 30% 85% 15% 70% ;
 }
+
 #places-grid img {
   border-radius: 15px;
   background-color: #fff;
@@ -458,7 +459,7 @@ form button {
 .cards:not(#special) {
   width: 40vw;
   height: 40em;
-  margin: 40px;
+  margin: 20px;
   padding: 20px;
   border: 2px solid rgba(155, 152, 155, 0.85);
   border-radius: 2px;
@@ -477,20 +478,22 @@ form button {
   background-color: rgba(255, 255, 255, 0.05);
 }
 
-@media only screen and (max-width: 920px) {
+@media screen and (max-width: 920px) {
   #projects {
     display: grid;
     grid-template-areas: '.';
   }
   .cards {
-    width: 60vw;
+    width: 80vw !important;
     padding: 30px;
+    margin: 2px;
   }
 }
-@media only screen and (max-width: 601px) {
+@media screen and (max-width: 601px) {
   .cards {
-    width: 70vw;
+    width: 90vw !important;
     padding: 10px;
+    margin: 2px;
   }
 }
 
@@ -519,6 +522,12 @@ form button {
 	.grid-container {
 		grid-template-areas: '.';
 	}
+  #places-grid {
+    background-color: transparent;
+  }
+  #places-grid img {
+    border: 2px solid var(--beige);
+  }
 }
 
 .grid-container .skill-card {

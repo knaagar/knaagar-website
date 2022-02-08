@@ -21,4 +21,3 @@ $.getJSON('/resources/projects.json', function(data) {
         data[i].worth ? el.appendChild(ael) : console.log('h')
     }
 });
-
