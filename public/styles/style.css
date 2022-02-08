@@ -250,7 +250,7 @@ p {
   font-family: Poppins;
   font-style: normal;
   font-weight: 600;
-  font-size: 18px;
+  font-size: 20px;
   text-align: left;
   color: #fff;
   padding: 5px;
@@ -527,6 +527,9 @@ form button {
   }
   #places-grid img {
     border: 2px solid var(--beige);
+  }
+  p {
+    font-size: 18px;
   }
 }
 
