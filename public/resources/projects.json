@@ -46,5 +46,13 @@
         "desc": "This is my portfolio (the site you are currently on). I used HTML5, CSS3, Javascript, jQuery and other small things for the frontend and Node.js, Express.js, Nodemailer and other small things for the backend.",
         "repo": "https://github.com/knaagar/knaagar-website",
         "worth": true
+    },
+    {
+        "name": "Github Search",
+        "thumb": "/images/gitsearch.png",
+        "link": "https://github-search.leafkn.repl.co/",
+        "desc": "This is a minimal project that I created to brush up my frontend as well as API skills. This is a search web app that allows you to search for github users from both there usernames and nicknames.",
+        "repo": "https://github.com/knaagar/github-search",
+        "worth": true
     }
 ]

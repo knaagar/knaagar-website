@@ -18,8 +18,6 @@ app.listen(port, () => {
     console.log(`Listening on port ${port}`);
 })
 
-// https://replit.com/talk/learn/NodeJs-Express-tutorial/23519
-
 app.get('/', (req, res) => { 
   res.sendFile(process.cwd() + '/public/views/index.html'); 
 });
