@@ -54,5 +54,13 @@
         "desc": "This is a minimal project that I created to brush up my frontend as well as API skills. This is a search web app that allows you to search for github users from both there usernames and nicknames.",
         "repo": "https://github.com/knaagar/github-search",
         "worth": true
+    },
+    {
+        "name": "SpaceGaze",
+        "thumb": "/images/spacegaze.png",
+        "link": "https://spacegaze.repl.co/",
+        "desc": "This is a client project that I made. This is a blog site made using EJS, Bootstrap, CSS for frontend and Node.js, Express.js for backend along with MongoDB and Mongoose for database. It was really fun to work on this project and deliver in just two days.",
+        "repo": "https://github.com/knaagar/spacegaze",
+        "worth": true
     }
 ]
