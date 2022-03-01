@@ -330,10 +330,10 @@ img {
   /* min-width: 100%; */
 }
 div.one img {
-  border-radius: 84% 16% 82% 18% / 10% 78% 22% 90% ;
+  border-radius: 14% 16% 12% 18% / 10% 18% 12% 10%;
 }
 div.two img {
-  border-radius: 90% 10% 85% 15% / 20% 81% 19% 80%;
+  border-radius: 14% 16% 12% 18% / 10% 18% 12% 10%;
 }
 a.color-it {
   color: var(--dgreen);
