@@ -456,6 +456,11 @@ form button {
   grid-template-areas: '. .';
 }
 
+#posts {
+  display: grid;
+  grid-template-areas: '. .';
+}
+
 .cards:not(#special) {
   width: 40vw;
   height: 40em;
@@ -480,6 +485,10 @@ form button {
 
 @media screen and (max-width: 920px) {
   #projects {
+    display: grid;
+    grid-template-areas: '.';
+  }
+  #posts {
     display: grid;
     grid-template-areas: '.';
   }
