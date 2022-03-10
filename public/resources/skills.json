@@ -76,5 +76,11 @@
         "title": "Bash",
         "fairlyProficient": true,
         "desc": "Bash runs operations in your device and hosts websites online."
+    },
+    {
+        "img": "/images/emojicode.png",
+        "title": "Emojicode",
+        "fairlyProficient": true,
+        "desc": "Fun, recreational, full-blown, strongly typed programming langauge where you can code with emojis 🍇."
     }
 ]
