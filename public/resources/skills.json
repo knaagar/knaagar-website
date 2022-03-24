@@ -82,5 +82,11 @@
         "title": "Emojicode",
         "fairlyProficient": true,
         "desc": "Fun, recreational, full-blown, strongly typed programming langauge where you can code with emojis 🍇."
+    },
+    {
+        "img": "https://bhailang.js.org/favicon.ico",
+        "title": "Bhailang.js",
+        "fairlyProficient": true,
+        "desc": "Bhailang is dynamically typed toy programming language, based on an inside joke, written in Typescript."
     }
 ]
