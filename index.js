@@ -38,6 +38,10 @@ app.get('/projects', (req, res) => {
   res.sendFile(process.cwd() + '/public/views/project.html'); 
 });
 
+app.get('/github-repos', (req, res) => {
+	res.sendFile(process.cwd() + '/public/views/github-repos.html')
+});
+
 app.get('/*', (req, res) => {
 	res.sendFile(process.cwd() + '/public/views/404.html')
 });
