@@ -66,12 +66,6 @@
         "desc": "Git is a version-control system and it is very helpful to deploy websites, collaborate and track your code."
     },
     {
-        "img": "https://www.drupal.org/files/project-images/font_awesome_logo.png",
-        "title": "Font Awesome",
-        "fairlyProficient": true,
-        "desc": "Icons that make the site look so pretty!"
-    },
-    {
         "img": "https://banner2.cleanpng.com/20180705/txh/kisspng-bash-shell-script-command-line-interface-z-shell-5b3df571eaf1a4.5375084915307871859623.jpg",
         "title": "Bash",
         "fairlyProficient": true,
@@ -81,7 +75,7 @@
         "img": "/images/emojicode.png",
         "title": "Emojicode",
         "fairlyProficient": true,
-        "desc": "Fun, recreational, full-blown, strongly typed programming langauge where you can code with emojis 🍇."
+        "desc": "Fun, recreational, full-blown, strongly typed programming language where you can code with emojis 🍇."
     },
     {
         "img": "https://bhailang.js.org/favicon.ico",
