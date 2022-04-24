@@ -32,14 +32,6 @@
         "worth": false
     },
     {
-        "name": "Facticity",
-        "thumb": "/images/facticity.png",
-        "link": "https://facticity.repl.co/",
-        "desc": "Facticity is a definitions-bookmarklet that gives you definitions of the word just after you select that word. This was the submission for Stem Warrior Hacks Winter hackathon. This also consists of a word database page (built with a free dictionary API) that gives you detailed information about the particular word.",
-        "repo": "https://github.com/knaagar/definitions-bookmarklet",
-        "worth": false
-    },
-    {
         "name": "Knaagar - Portfolio",
         "thumb": "/images/knaagar.png",
         "link": "/",
